@@ -1,5 +1,5 @@
 {
-    "appId": "com.electron.app",
+    "appId": "work.antoniocaccamo.labs.electron.vue",
     "directories": {
         "output": "dist"
     },

@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import log from 'electron-log/renderer';
 import HelloWorld from './components/HelloWorld.vue'
 
-window.electronAPI.sendMessage('Hello from App.vue!');
+log.info('Hello from App.vue!');
+
 </script>
 
 <template>
@@ -23,9 +25,11 @@ window.electronAPI.sendMessage('Hello from App.vue!');
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }

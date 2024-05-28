@@ -1,5 +1,7 @@
 <div align="center"> 
 
+
+
 # Electron Vue Template
   
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/32544586/222748627-ee10c9a6-70d2-4e21-b23f-001dd8ec7238.png">
@@ -75,3 +77,7 @@ import {readFileSync} from 'fs';
 const path = join(app.getAppPath(), 'static', 'myFile.txt');
 const buffer = readFileSync(path);
 ```
+
+
+## references
+- [Azure AD OAuth 2.0 Authorization Code Grant Flow in Electron](https://medium.com/@jmsessink/azure-ad-oauth-2-0-authorization-code-grant-flow-in-electron-4f58d6d5eaa0)
