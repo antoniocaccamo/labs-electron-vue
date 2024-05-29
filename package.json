@@ -1,6 +1,6 @@
 {
   "name": "electron-vue-template",
-  "productName" : "Labs : Electron Vue ",
+  "productName": "Labs : Electron Vue ",
   "version": "0.1.0",
   "description": "A minimal Electron + Vue application",
   "main": "main/main.js",
@@ -27,7 +27,11 @@
     "vite": "^4.5.3"
   },
   "dependencies": {
+    "appauth": "openid/appauth",
+    "axios": "^1.7.2",
     "electron-log": "^5.1.5",
+    "electron-store": "8.2.0",
+    "jwt-decode": "^4.0.0",
     "vue": "^3.3.8"
   }
 }
